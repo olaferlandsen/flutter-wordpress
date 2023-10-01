@@ -39,7 +39,8 @@ class _PostPageState extends State<PostPage> {
                 children: <Widget>[
                   Text(post.title),
                   HtmlWidget(
-                    post.content
+                    post.content,
+                    // webView: true
                   ),
                 ],
               ),

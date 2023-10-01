@@ -13,8 +13,10 @@ void main() {
         "/post" : (ctx) => const PostPage()
       },
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(66, 26, 25, 25)),
-        useMaterial3: true,
+        scaffoldBackgroundColor: Colors.black,
+        colorScheme: ColorScheme.dark(),
+        appBarTheme: AppBarTheme(backgroundColor: Colors.black)
+        // useMaterial3: false,
       ),
       debugShowCheckedModeBanner: false
     ));
